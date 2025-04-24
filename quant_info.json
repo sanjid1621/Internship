@@ -1,0 +1,33 @@
+{
+  "param":
+  {
+    "PQDCNN::conv_layers.0.weight":[8,8],
+    "PQDCNN::conv_layers.0.bias":[8,8],
+    "PQDCNN::conv_layers.3.weight":[8,10],
+    "PQDCNN::conv_layers.3.bias":[8,10],
+    "PQDCNN::conv_layers.6.weight":[8,10],
+    "PQDCNN::conv_layers.6.bias":[8,10],
+    "PQDCNN::fc_layers.0.weight":[8,11],
+    "PQDCNN::fc_layers.0.bias":[8,12],
+    "PQDCNN::fc_layers.2.weight":[8,10],
+    "PQDCNN::fc_layers.2.bias":[8,10]
+  },
+  "output":
+  {
+    "PQDCNN::input_0":[8,-3],
+    "PQDCNN::PQDCNN/Sequential[conv_layers]/ReLU[1]/313":[8,-2],
+    "PQDCNN::PQDCNN/Sequential[conv_layers]/MaxPool1d[2]/input.5":[8,-2],
+    "PQDCNN::PQDCNN/Sequential[conv_layers]/ReLU[4]/339":[8,-1],
+    "PQDCNN::PQDCNN/Sequential[conv_layers]/MaxPool1d[5]/input.9":[8,-1],
+    "PQDCNN::PQDCNN/Sequential[conv_layers]/ReLU[7]/365":[8,0],
+    "PQDCNN::PQDCNN/Sequential[conv_layers]/MaxPool1d[8]/375":[8,0],
+    "PQDCNN::PQDCNN/Sequential[fc_layers]/ReLU[1]/input":[8,2],
+    "PQDCNN::PQDCNN/Sequential[fc_layers]/Linear[2]/385":[8,3]
+  },
+  "input":
+  {
+
+  },
+  "fast_finetuned":false,
+  "bias_corrected":true
+}
