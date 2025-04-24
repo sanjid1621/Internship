@@ -1,0 +1,7 @@
+{
+  "input_quantizer": "maxmin",
+  "weights_quantizer": "maxmin",
+  "bias_quantizer": "maxmin",
+  "calib_batch_size": 10,
+  "calib_iter": 100
+}
